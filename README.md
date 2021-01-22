@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> The project is a website where you can order food kits to cook for yourself
+> The project is a section of a website where you can order food kits to cook for yourself
 
 
 ## Install
