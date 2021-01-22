@@ -1,0 +1,52 @@
+{
+  "name": "section-food-pack",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "build": "react-scripts build",
+    "cy:run": "cypress run",
+    "eject": "react-scripts eject",
+    "lint": "tslint --project tsconfig.json",
+    "lint:fix": "tslint --project tsconfig.json --fix",
+    "start": "react-scripts start",
+    "fake-gql": "json-graphql-server db.js --p 4000"
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.5",
+    "apollo-boost": "^0.4.9",
+    "graphql": "^15.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-spinners": "^0.8.3",
+    "reflexbox": "^4.0.6",
+    "start-server-and-test": "^1.11.0",
+    "styled-components": "^5.1.1",
+    "typescript": "3.9.5"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@types/jest": "^25.2.3",
+    "@types/node": "^14.0.10",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/reflexbox": "^4.0.1",
+    "@types/styled-components": "^5.1.0",
+    "cypress": "^4.7.0",
+    "husky": "^4.2.5",
+    "json-graphql-server": "^2.2.0",
+    "prettier": "^2.0.5",
+    "source-map-explorer": "^2.4.2",
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-prettier": "^1.1.2",
+    "tslint": "^6.1.2",
+    "tslint-config-airbnb": "^5.11.2",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.3.0",
+    "tslint-react": "^5.0.0"
+  }
+}
